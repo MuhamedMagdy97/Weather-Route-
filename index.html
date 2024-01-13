@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+
+    <!-- End search -->
+    <!-- **********//###############################################################################\\********** -->
+    <!-- weather app -->
+    <section class="weather-app">
+    <div class="container weather-container">
+        <h3 class="brand">
+            The Weather
+        </h3>
+        <div>
+            <h2 class="temp">16&#176</h2>
+            <div class="city-time">
+                <h1 class="name">London</h1>
+                <small>
+                    <span class="time">06:09</span>
+                    - 
+                    <span class="date">Monday Sep 19</span>
+                </small>
+            </div>
+            <div class="weather">
+                <img src="assets/icons/day/116.png" alt="icon" width="50" height="50">
+                <span class="condition">Cloudy</span>
+            </div>
+        </div>
+    </div>
+    <div class="panel">
+        <form id="locationInput">
+            <input type="text" class="search" placeholder="Find Your Location">
+            <button type="submit" class="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <ul class="cities list-unstyled">
+            <li class="city">New York</li>
+            <li class="city">Los Angeles</li>
+            <li class="city">Berlin</li>
+            <li class="city">Paris</li>
+            <li class="city">cairo</li>
+        </ul>
+        <ul class="details list-unstyled">
+            <h4>Weather Details</h4>
+            <li><span>Cloudy</span><span class="cloud">89%</span></li>
+            <li><span>Humidity</span><span class="humidity">64%</span></li>
+            <li><span>wind</span><span class="wind">70%</span></li>
+        </ul>
+    </div>
+    </section>
+    <!-- End weather app -->
+    <!-- **********//###############################################################################\\********** -->
+
+
+    <!-- Scripts -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
